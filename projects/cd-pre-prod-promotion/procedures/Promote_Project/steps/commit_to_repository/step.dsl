@@ -17,8 +17,6 @@ step 'commit_to_repository', {
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''

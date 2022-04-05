@@ -17,8 +17,6 @@ step 'get_project_name', {
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''

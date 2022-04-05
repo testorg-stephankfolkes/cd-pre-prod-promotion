@@ -17,8 +17,6 @@ step 'capture_sticky_resource', {
   releaseMode = 'none'
   resourceName = ''
   shell = ''
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''

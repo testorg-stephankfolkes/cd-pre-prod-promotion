@@ -17,8 +17,6 @@ step 'create_json_metadata_file', {
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = 'ec-groovy'
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''
