@@ -17,8 +17,6 @@ step 'checkout_branch', {
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''

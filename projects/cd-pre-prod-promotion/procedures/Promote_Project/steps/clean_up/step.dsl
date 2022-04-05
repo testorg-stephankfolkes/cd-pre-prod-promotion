@@ -17,8 +17,6 @@ step 'clean_up', {
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''
-  subprocedure = ''
-  subproject = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workingDirectory = ''
