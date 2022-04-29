@@ -98,6 +98,7 @@ resourcePool myResourcePoolName, {
   useFormalParameter = '1'
 
   formalParameter 'projectName', {
+    description = ''
     expansionDeferred = '0'
     label = 'Project Name'
     orderIndex = '1'
@@ -106,6 +107,7 @@ resourcePool myResourcePoolName, {
   }
 
   formalParameter 'environment', {
+    description = ''
     expansionDeferred = '0'
     label = 'Environment'
     options = [
