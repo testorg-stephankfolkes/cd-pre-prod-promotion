@@ -9,6 +9,7 @@ procedure 'test1 Copy', {
   workspaceName = ''
 
   formalParameter 'cred', {
+    description = ''
     expansionDeferred = '0'
     orderIndex = '1'
     required = '1'
