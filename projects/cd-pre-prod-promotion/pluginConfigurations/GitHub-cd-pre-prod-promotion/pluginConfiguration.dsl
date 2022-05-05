@@ -1,8 +1,8 @@
 
-pluginConfiguration 'stephankfolkes Github', {
+pluginConfiguration 'GitHub-cd-pre-prod-promotion', {
   description = ''
   credentialReferenceParameter = [
-    'bearer_credential': '/projects/cd-pre-prod-promotion/credentials/GIT_PAT',
+    'bearer_credential': '/projects/CBCD_Platform_Core/credentials/GIT_PAT_Stephan',
   ]
   field = [
     'bearer_credential': 'bearer_credential',
