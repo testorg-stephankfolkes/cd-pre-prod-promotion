@@ -19,8 +19,4 @@ task 'task2', {
   taskType = 'PROCEDURE'
   useApproverAcl = '0'
   waitForPlannedStartDate = '0'
-
-  attachCredential {
-    credentialName = '/projects/cd-pre-prod-promotion/credentials/github_org_token'
-  }
 }
