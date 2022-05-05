@@ -1,5 +1,6 @@
 
 task 'Group 1', {
+  description = ''
   advancedMode = '0'
   allowOutOfOrderRun = '0'
   alwaysRun = '0'
