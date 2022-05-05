@@ -9,6 +9,7 @@ procedure 'TestImport', {
   workspaceName = ''
 
   formalParameter 'Resource', {
+    description = ''
     expansionDeferred = '0'
     label = 'Resource'
     orderIndex = '1'
@@ -17,6 +18,7 @@ procedure 'TestImport', {
   }
 
   formalParameter 'GitConfig', {
+    description = ''
     expansionDeferred = '0'
     label = 'GitConfig'
     orderIndex = '2'
@@ -25,6 +27,7 @@ procedure 'TestImport', {
   }
 
   formalParameter 'Repo', {
+    description = ''
     expansionDeferred = '0'
     label = 'Repo'
     orderIndex = '3'
@@ -33,6 +36,7 @@ procedure 'TestImport', {
   }
 
   formalParameter 'Branch', {
+    description = ''
     expansionDeferred = '0'
     label = 'Branch'
     orderIndex = '4'

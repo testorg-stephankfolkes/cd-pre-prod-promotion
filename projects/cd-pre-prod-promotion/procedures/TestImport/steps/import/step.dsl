@@ -14,7 +14,7 @@ step 'import', {
   subprocedure = 'importDslFromGitNew'
   subproject = '/plugins/EC-DslDeploy/project'
   timeLimit = '0'
-  timeLimitUnits = 'seconds'
+  timeLimitUnits = 'minutes'
   workspaceName = ''
   actualParameter 'branch', '$[Branch]'
   actualParameter 'cleanup', '1'
