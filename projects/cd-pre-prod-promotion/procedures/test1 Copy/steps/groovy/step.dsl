@@ -21,4 +21,8 @@ step 'groovy', {
   timeLimitUnits = 'minutes'
   workingDirectory = ''
   workspaceName = ''
+
+  attachCredential {
+    credentialName = '/projects/cd-pre-prod-promotion/credentials/Ammar-Test'
+  }
 }

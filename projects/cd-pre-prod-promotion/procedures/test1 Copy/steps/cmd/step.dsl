@@ -21,8 +21,4 @@ step 'cmd', {
   timeLimitUnits = 'minutes'
   workingDirectory = ''
   workspaceName = ''
-
-  attachParameter {
-    formalParameterName = '/projects/cd-pre-prod-promotion/procedures/test1 Copy/formalParameters/cred'
-  }
 }
