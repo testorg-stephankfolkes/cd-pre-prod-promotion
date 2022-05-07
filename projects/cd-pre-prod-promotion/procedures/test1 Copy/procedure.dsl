@@ -11,10 +11,8 @@ procedure 'test1 Copy', {
   formalParameter 'project', {
     description = ''
     expansionDeferred = '0'
-    optionsDsl = '''def user = \'$[/myUser/userName]\'
-def listOfUsersGroups = getUser(userName: user, traverseHierarchy: true).groupName'''
     orderIndex = '1'
     required = '1'
-    type = 'select'
+    type = 'project'
   }
 }
