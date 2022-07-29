@@ -1,5 +1,5 @@
 
-pipeline 'testpipeline', {
+pipeline 'testpipeline-rename', {
   description = ''
   disableMultipleActiveRuns = '0'
   disableRestart = '0'
@@ -9,6 +9,7 @@ pipeline 'testpipeline', {
   skipStageMode = 'ENABLED'
 
   formalParameter 'ec_stagesToRun', {
+    description = ''
     expansionDeferred = '1'
     required = '0'
   }
