@@ -14,6 +14,8 @@ environment 'env', {
     ]
   }
 
+  tag 'PROD'
+
   utilityResource 'Utility Resource 1', {
     description = ''
   }
