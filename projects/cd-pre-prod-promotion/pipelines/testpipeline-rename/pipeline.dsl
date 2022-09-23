@@ -5,7 +5,6 @@ pipeline 'testpipeline-rename', {
   disableRestart = '0'
   enabled = '1'
   overrideWorkspace = '0'
-  projectName = 'cd-pre-prod-promotion'
   skipStageMode = 'ENABLED'
 
   formalParameter 'ec_stagesToRun', {
