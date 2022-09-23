@@ -4,7 +4,6 @@ import java.io.File
 process 'process', {
   description = ''
   processType = 'DEPLOY'
-  projectName = 'cd-pre-prod-promotion'
   timeLimit = ''
   timeLimitUnits = 'minutes'
 
@@ -18,7 +17,6 @@ process 'process', {
     dependencyJoinType = 'and'
     errorHandling = 'abortJob'
     processStepType = 'command'
-    projectName = 'cd-pre-prod-promotion'
     subprocedure = 'RunCommand'
     subproject = '/plugins/EC-Core/project'
     timeLimit = ''
