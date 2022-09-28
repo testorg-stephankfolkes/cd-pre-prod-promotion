@@ -1,10 +1,8 @@
 
 process 'deploy', {
   description = ''
-  applicationName = 'app'
   exclusiveEnvironment = '0'
   processType = 'DEPLOY'
-  projectName = 'cd-pre-prod-promotion'
   timeLimit = ''
   timeLimitUnits = 'minutes'
 

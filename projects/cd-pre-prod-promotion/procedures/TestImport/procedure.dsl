@@ -2,7 +2,6 @@
 procedure 'TestImport', {
   description = ''
   jobNameTemplate = ''
-  projectName = 'cd-pre-prod-promotion'
   resourceName = ''
   timeLimit = '0'
   timeLimitUnits = 'minutes'

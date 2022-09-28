@@ -13,7 +13,6 @@ catalogItem 'Register Resource', {
 </xml>'''
   allowScheduling = '0'
   buttonLabel = 'Execute'
-  catalogName = 'Resource'
   dslString = '''def myResourceName = args.resourceName
 def myHostName = args.hostName
 def myResourcePoolName = args.resourcePoolName
@@ -94,7 +93,6 @@ resourcePool myResourcePoolName, {
 }
 '''
   iconUrl = 'icon-catalog-item.svg'
-  projectName = 'cd-pre-prod-promotion'
   useFormalParameter = '1'
 
   formalParameter 'projectName', {

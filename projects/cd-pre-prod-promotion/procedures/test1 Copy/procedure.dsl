@@ -2,7 +2,6 @@
 procedure 'test1 Copy', {
   description = ''
   jobNameTemplate = ''
-  projectName = 'cd-pre-prod-promotion'
   resourceName = ''
   timeLimit = '0'
   timeLimitUnits = 'minutes'
