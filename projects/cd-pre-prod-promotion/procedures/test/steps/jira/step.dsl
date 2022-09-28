@@ -1,0 +1,23 @@
+
+step 'jira', {
+  description = ''
+  alwaysRun = '0'
+  broadcast = '0'
+  condition = ''
+  errorHandling = 'failProcedure'
+  exclusiveMode = 'none'
+  parallel = '0'
+  precondition = ''
+  releaseMode = 'none'
+  resourceName = ''
+  subprocedure = 'GetIssues'
+  subproject = '/plugins/EC-JIRA/project'
+  timeLimit = '0'
+  timeLimitUnits = 'seconds'
+  workspaceName = ''
+  actualParameter 'config', '/projects/cd-prod-promotion/pluginConfigurations/jira-creds'
+  actualParameter 'createLink', '1'
+  actualParameter 'jql', 'project = MYPROJ'
+  actualParameter 'resultFormat', 'propertySheet'
+  actualParameter 'resultProperty', '/myJob/getIssuesResult'
+}

@@ -1,0 +1,22 @@
+
+schedule '14-37-2022-05-05-cd-pre-prod-promotion', {
+  description = ''
+  beginDate = '2022-05-05'
+  endDate = '2022-05-06'
+  interval = '0'
+  intervalUnits = 'seconds'
+  misfirePolicy = 'runOnce'
+  monthDays = ''
+  priority = 'normal'
+  procedureName = 'example-promotion-pipeline2-procedure'
+  scheduleDisabled = '0'
+  startTime = '13:13'
+  stopTime = ''
+  timeZone = 'America/Toronto'
+  weekDays = ''
+  actualParameter 'cloneBranch', 'main'
+  actualParameter 'ec-git_configuration', '/projects/cd-prod-promotion/pluginConfigurations/def_git_config'
+  actualParameter 'gitRepoUrl', 'https://github.com/testorg-stephankfolkes/cd-pre-prod-promotion.git'
+  actualParameter 'resource_OR_pool_name', 'new-agent-flow-agents'
+  actualParameter 'targetImportProjectName', '/projects/cd-pre-prod-promotion'
+}
