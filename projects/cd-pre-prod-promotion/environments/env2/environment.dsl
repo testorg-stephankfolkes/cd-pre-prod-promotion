@@ -15,5 +15,12 @@ environment 'env2', {
       recurrence = '0'
       timeZone = 'Europe/London'
     }
+    resourcePoolName = [
+      'autotests_EXT1',
+    ]
+  }
+
+  utilityResource 'Utility Resource 1', {
+    resourceName = 'autotests_DEV'
   }
 }

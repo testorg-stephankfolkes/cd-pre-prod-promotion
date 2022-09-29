@@ -1,1 +1,1 @@
-/projects/cd-prod-promotion/pluginConfigurations/def_git_config
+/projects/cd-pre-prod-promotion/pluginConfigurations/def_git_config

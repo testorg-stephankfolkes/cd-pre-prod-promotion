@@ -15,7 +15,7 @@ schedule '14-37-2022-05-05-cd-pre-prod-promotion', {
   timeZone = 'America/Toronto'
   weekDays = ''
   actualParameter 'cloneBranch', 'main'
-  actualParameter 'ec-git_configuration', '/projects/cd-prod-promotion/pluginConfigurations/def_git_config'
+  actualParameter 'ec-git_configuration', '/projects/cd-pre-prod-promotion/pluginConfigurations/def_git_config'
   actualParameter 'gitRepoUrl', 'https://github.com/testorg-stephankfolkes/cd-pre-prod-promotion.git'
   actualParameter 'resource_OR_pool_name', 'new-agent-flow-agents'
   actualParameter 'targetImportProjectName', '/projects/cd-pre-prod-promotion'

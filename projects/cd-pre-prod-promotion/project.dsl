@@ -1,5 +1,5 @@
 
-project 'cd-prod-promotion', {
+project 'cd-pre-prod-promotion', {
   description = ''
   tracked = '1'
 }

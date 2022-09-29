@@ -24,6 +24,6 @@ step 'cmd', {
   workspaceName = ''
 
   attachParameter {
-    formalParameterName = '/projects/cd-prod-promotion/procedures/test1/formalParameters/cred'
+    formalParameterName = '/projects/cd-pre-prod-promotion/procedures/test1/formalParameters/cred'
   }
 }

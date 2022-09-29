@@ -15,7 +15,7 @@ step 'jira', {
   timeLimit = '0'
   timeLimitUnits = 'seconds'
   workspaceName = ''
-  actualParameter 'config', '/projects/cd-prod-promotion/pluginConfigurations/jira-creds'
+  actualParameter 'config', '/projects/cd-pre-prod-promotion/pluginConfigurations/jira-creds'
   actualParameter 'createLink', '1'
   actualParameter 'jql', 'project = MYPROJ'
   actualParameter 'resultFormat', 'propertySheet'

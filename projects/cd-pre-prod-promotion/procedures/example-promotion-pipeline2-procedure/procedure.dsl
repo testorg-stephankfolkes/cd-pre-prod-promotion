@@ -5,7 +5,7 @@ procedure 'example-promotion-pipeline2-procedure', {
   timeLimitUnits = 'minutes'
   workspaceName = ''
 
-  formalParameter 'ec-git_configuration', defaultValue: '/projects/cd-prod-promotion/pluginConfigurations/def_git_config', {
+  formalParameter 'ec-git_configuration', defaultValue: '/projects/cd-pre-prod-promotion/pluginConfigurations/def_git_config', {
     description = 'Select the EC-Git configuration that will have permission to clone the repository.'
     expansionDeferred = '0'
     label = 'EC-Git Configuration'
