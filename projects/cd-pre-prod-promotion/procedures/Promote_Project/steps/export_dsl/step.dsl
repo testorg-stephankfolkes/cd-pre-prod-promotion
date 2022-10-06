@@ -10,6 +10,7 @@ step 'export_dsl', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''

@@ -2,6 +2,7 @@
 environment 'env', {
   description = ''
   environmentEnabled = '1'
+  projectName = 'cd-pre-prod-promotion'
   reservationRequired = '0'
   rollingDeployEnabled = '0'
   rollingDeployType = 'phase'
@@ -13,9 +14,7 @@ environment 'env', {
     ]
   }
 
-  tag 'PROD', {
-    description = ''
-  }
+  tag 'PROD'
 
   utilityResource 'Utility Resource 1', {
     description = ''

@@ -11,4 +11,5 @@ pluginConfiguration 'GitHub-cd-pre-prod-promotion', {
     'ifRateLimitExceeded': 'error',
   ]
   pluginKey = 'EC-Github'
+  projectName = 'cd-pre-prod-promotion'
 }

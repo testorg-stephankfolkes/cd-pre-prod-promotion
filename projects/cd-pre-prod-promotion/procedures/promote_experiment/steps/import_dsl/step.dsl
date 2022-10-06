@@ -10,6 +10,7 @@ step 'import_dsl', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = ''
   shell = ''

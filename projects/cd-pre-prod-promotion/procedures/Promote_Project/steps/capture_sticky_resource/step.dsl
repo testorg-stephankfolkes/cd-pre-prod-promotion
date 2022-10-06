@@ -13,6 +13,7 @@ step 'capture_sticky_resource', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = ''
   shell = ''

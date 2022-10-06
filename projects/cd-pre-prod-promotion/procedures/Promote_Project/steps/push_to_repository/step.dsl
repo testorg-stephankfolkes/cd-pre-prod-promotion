@@ -13,6 +13,7 @@ step 'push_to_repository', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''

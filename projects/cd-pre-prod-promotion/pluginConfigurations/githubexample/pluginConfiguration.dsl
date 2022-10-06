@@ -10,4 +10,5 @@ pluginConfiguration 'githubexample', {
     'endpoint': 'https://api.github.com',
   ]
   pluginKey = 'EC-Github'
+  projectName = 'cd-pre-prod-promotion'
 }

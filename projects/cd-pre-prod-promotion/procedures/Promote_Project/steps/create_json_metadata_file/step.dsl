@@ -13,6 +13,7 @@ step 'create_json_metadata_file', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = 'ec-groovy'

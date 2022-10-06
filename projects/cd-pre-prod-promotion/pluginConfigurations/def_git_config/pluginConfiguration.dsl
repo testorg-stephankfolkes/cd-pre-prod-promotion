@@ -11,8 +11,10 @@ pluginConfiguration 'def_git_config', {
     'repositoryURL': 'git@github.com:cloudbees/cd-promop-dev.git',
   ]
   pluginKey = 'EC-Git'
+  projectName = 'cd-pre-prod-promotion'
 
   addCredential 'key_credential', {
     passwordRecoveryAllowed = '1'
+    projectName = 'cd-pre-prod-promotion'
   }
 }

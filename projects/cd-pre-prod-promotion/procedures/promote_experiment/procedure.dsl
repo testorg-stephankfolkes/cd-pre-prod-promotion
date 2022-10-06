@@ -2,6 +2,7 @@
 procedure 'promote_experiment', {
   description = ''
   jobNameTemplate = ''
+  projectName = 'cd-pre-prod-promotion'
   resourceName = ''
   timeLimit = ''
   timeLimitUnits = 'minutes'
