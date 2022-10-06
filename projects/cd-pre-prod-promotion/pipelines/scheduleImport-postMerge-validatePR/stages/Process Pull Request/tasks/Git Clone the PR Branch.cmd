@@ -1,1 +1,0 @@
-echo "Skipping. No checks performed."

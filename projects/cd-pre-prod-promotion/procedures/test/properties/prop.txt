@@ -1,9 +1,0 @@
-$[/javascript 
-switch(server.instanceType.trim()) {
-      case "prod": "main"
-        break;
-      case "preprod": "preprod"
-        break;
-      default: "dev"
-      }
-]
