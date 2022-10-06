@@ -12,6 +12,7 @@ task 're', {
   enabled = '1'
   errorHandling = 'stopOnError'
   insertRollingDeployManualStep = '0'
+  projectName = 'cd-pre-prod-promotion'
   resourceName = ''
   skippable = '0'
   subpluginKey = 'EC-Core'

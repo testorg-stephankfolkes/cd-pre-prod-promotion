@@ -13,6 +13,7 @@ step 'get_project_name', {
   parallel = '0'
   postProcessor = ''
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   shell = ''

@@ -9,8 +9,10 @@ pluginConfiguration 'Git', {
     'token_credential': 'token_credential',
   ]
   pluginKey = 'EC-Git'
+  projectName = 'cd-pre-prod-promotion'
 
   addCredential 'token_credential', {
     passwordRecoveryAllowed = '1'
+    projectName = 'cd-pre-prod-promotion'
   }
 }

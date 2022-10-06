@@ -12,4 +12,5 @@ pluginConfiguration 'Git_w_CLI', {
     'token_credential': 'token_credential',
   ]
   pluginKey = 'EC-Git'
+  projectName = 'cd-pre-prod-promotion'
 }

@@ -9,4 +9,5 @@ pluginConfiguration 'Git_Conf', {
     'library': 'jgit',
   ]
   pluginKey = 'EC-Git'
+  projectName = 'cd-pre-prod-promotion'
 }

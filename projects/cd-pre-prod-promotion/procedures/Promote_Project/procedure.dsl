@@ -2,6 +2,7 @@
 procedure 'Promote_Project', {
   description = ''
   jobNameTemplate = ''
+  projectName = 'cd-pre-prod-promotion'
   resourceName = '$[resource_name]'
   timeLimit = ''
   timeLimitUnits = 'minutes'

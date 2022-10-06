@@ -8,6 +8,7 @@ step 'import', {
   exclusiveMode = 'none'
   parallel = '0'
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = ''
   subprocedure = 'importDslFromGitNew'

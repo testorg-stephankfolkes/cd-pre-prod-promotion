@@ -11,4 +11,5 @@ pluginConfiguration 'stephankfolkes Github', {
     'ifRateLimitExceeded': 'error',
   ]
   pluginKey = 'EC-Github'
+  projectName = 'cd-pre-prod-promotion'
 }

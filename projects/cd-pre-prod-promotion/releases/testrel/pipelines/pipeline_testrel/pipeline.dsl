@@ -5,6 +5,8 @@ pipeline 'pipeline_testrel', {
   disableRestart = '0'
   enabled = '1'
   overrideWorkspace = '0'
+  projectName = 'cd-pre-prod-promotion'
+  releaseName = 'testrel'
   skipStageMode = 'ENABLED'
 
   formalParameter 'param', {

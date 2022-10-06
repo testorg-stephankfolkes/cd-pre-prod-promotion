@@ -8,6 +8,7 @@ step 'create_pull_request', {
   exclusiveMode = 'none'
   parallel = '0'
   precondition = ''
+  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = '$[/myJob/AssignedResource]'
   subprocedure = 'Create Pull Request'
