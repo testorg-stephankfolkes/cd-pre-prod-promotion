@@ -22,6 +22,6 @@ step 'groovy', {
   workspaceName = ''
 
   attachCredential {
-    credentialName = '/projects/cd-prod-promotion/credentials/Ammar-Test'
+    credentialName = '/projects/cd-pre-prod-promotion/credentials/Ammar-Test'
   }
 }
