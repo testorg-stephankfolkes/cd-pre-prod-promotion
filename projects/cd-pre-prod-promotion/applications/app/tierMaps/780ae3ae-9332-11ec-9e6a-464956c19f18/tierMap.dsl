@@ -1,7 +1,7 @@
 
 tierMap '780ae3ae-9332-11ec-9e6a-464956c19f18', {
   environmentName = 'env'
-  environmentProjectName = 'cd-pre-prod-promotion'
+  environmentProjectName = 'cd-prod-promotion'
 
   tierMapping '780bf524-9332-11ec-9e6a-464956c19f18', {
     applicationTierName = 'Tier 1'

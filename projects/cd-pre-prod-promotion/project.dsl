@@ -1,4 +1,4 @@
 
-project 'cd-pre-prod-promotion', {
+project 'cd-prod-promotion', {
   tracked = '1'
 }

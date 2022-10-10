@@ -2,6 +2,6 @@
 release 'releaseTest', {
   description = ''
   disableMultipleActiveRuns = '0'
-  plannedEndDate = '2022-10-21'
-  plannedStartDate = '2022-10-07'
+  plannedEndDate = '2022-10-24'
+  plannedStartDate = '2022-10-10'
 }

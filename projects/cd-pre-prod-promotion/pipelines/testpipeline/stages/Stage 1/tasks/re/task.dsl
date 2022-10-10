@@ -12,7 +12,7 @@ task 're', {
   enabled = '1'
   errorHandling = 'stopOnError'
   insertRollingDeployManualStep = '0'
-  resourceName = ''
+  resourceName = 'autotests_DEV'
   skippable = '0'
   subpluginKey = 'EC-Core'
   subprocedure = 'RunCommand'

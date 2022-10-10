@@ -22,6 +22,6 @@ step 'push_to_repository', {
   workspaceName = ''
 
   attachParameter {
-    formalParameterName = '/projects/cd-pre-prod-promotion/procedures/Promote_Project/formalParameters/git-creds-pat'
+    formalParameterName = '/projects/cd-prod-promotion/procedures/Promote_Project/formalParameters/git-creds-pat'
   }
 }

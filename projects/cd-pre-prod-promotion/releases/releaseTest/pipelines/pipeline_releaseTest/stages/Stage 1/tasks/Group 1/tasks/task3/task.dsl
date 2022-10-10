@@ -3,7 +3,7 @@ task 'task3', {
   description = ''
   actualParameter = [
     'cloneBranch': 'adfa',
-    'ec-git_configuration': '/projects/cd-pre-prod-promotion/pluginConfigurations/def_git_config',
+    'ec-git_configuration': '/projects/cd-prod-promotion/pluginConfigurations/def_git_config',
     'gitRepoUrl': 'sadf',
     'resource_OR_pool_name': 'gateway-external-agent',
   ]

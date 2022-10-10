@@ -1,1 +1,1 @@
-cd-pre-prod-promotion
+cd-prod-promotion
