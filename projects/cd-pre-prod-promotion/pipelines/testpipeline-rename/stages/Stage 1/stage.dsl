@@ -3,6 +3,6 @@ stage 'Stage 1', {
   description = ''
   colorCode = '#289ce1'
   completionType = 'auto'
-  test
+  resourceName = 'autotests_DEV'
   waitForPlannedStartDate = '0'
 }
