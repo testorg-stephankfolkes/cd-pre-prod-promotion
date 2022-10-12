@@ -11,7 +11,7 @@ step 'import_dsl', {
   postProcessor = ''
   precondition = ''
   releaseMode = 'none'
-  resourceName = ''
+  resourceName = 'autotest-DEV'
   shell = ''
   subprocedure = 'installDslFromDirectory'
   subproject = '/plugins/EC-DslDeploy/project'

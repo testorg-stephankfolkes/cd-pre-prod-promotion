@@ -2,7 +2,7 @@
 procedure 'promote_experiment', {
   description = ''
   jobNameTemplate = ''
-  resourceName = ''
+  resourceName = 'autotest-DEV'
   timeLimit = ''
   timeLimitUnits = 'minutes'
   workspaceName = ''
