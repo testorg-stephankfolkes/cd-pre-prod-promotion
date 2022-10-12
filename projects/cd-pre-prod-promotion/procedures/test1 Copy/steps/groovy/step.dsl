@@ -14,7 +14,7 @@ step 'groovy', {
   postProcessor = ''
   precondition = ''
   releaseMode = 'none'
-  resourceName = 'new-agent-flow-agents'
+  resourceName = 'new-agent'
   shell = 'ec-groovy'
   timeLimit = '0'
   timeLimitUnits = 'minutes'
