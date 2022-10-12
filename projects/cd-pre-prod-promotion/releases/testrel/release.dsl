@@ -2,7 +2,6 @@
 release 'testrel', {
   description = ''
   disableMultipleActiveRuns = '0'
-  plannedEndDate = '2022-04-25'
-  plannedStartDate = '2022-04-11'
-  projectName = 'cd-pre-prod-promotion'
+  plannedEndDate = '2022-10-26'
+  plannedStartDate = '2022-10-12'
 }

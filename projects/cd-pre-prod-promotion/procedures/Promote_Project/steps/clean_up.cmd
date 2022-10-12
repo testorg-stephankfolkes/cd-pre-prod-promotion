@@ -1,0 +1,1 @@
+rm -rf $[/myProcedure/clone_directory]

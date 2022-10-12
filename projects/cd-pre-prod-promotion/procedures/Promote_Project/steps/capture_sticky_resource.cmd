@@ -1,0 +1,1 @@
+ectool setProperty /myJob/AssignedResource "$[/myResource]"
