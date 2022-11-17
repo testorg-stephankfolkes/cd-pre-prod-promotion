@@ -13,7 +13,6 @@ step 'groovy', {
   parallel = '1'
   postProcessor = ''
   precondition = ''
-  projectName = 'cd-pre-prod-promotion'
   releaseMode = 'none'
   resourceName = 'new-agent-flow-agents'
   shell = 'ec-groovy'
