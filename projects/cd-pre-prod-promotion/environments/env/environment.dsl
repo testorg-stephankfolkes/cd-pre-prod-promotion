@@ -8,14 +8,9 @@ environment 'env', {
 
   environmentTier 'Tier 1', {
     description = ''
-    resourceName = [
-      'k8s-agent-flow-agent-0',
-    ]
   }
 
-  tag 'PROD', {
-    description = ''
-  }
+  tag 'PROD'
 
   utilityResource 'Utility Resource 1', {
     description = ''

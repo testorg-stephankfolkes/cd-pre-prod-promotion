@@ -6,7 +6,7 @@ acl{
     modifyPrivilege = 'allow'
     readPrivilege = 'allow'
   }
-  aclEntry 'user', principalName: 'project: CBCD_Platform_Core', {
+  aclEntry 'user', principalName: 'project: Shared-Service-Catalogues', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'

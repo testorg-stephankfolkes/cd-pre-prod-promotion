@@ -1,2 +1,4 @@
 
-catalog 'Resource'
+catalog 'Resource', {
+  description = ''
+}

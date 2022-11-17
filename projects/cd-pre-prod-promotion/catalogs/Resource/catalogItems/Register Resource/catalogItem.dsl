@@ -93,6 +93,7 @@ resourcePool myResourcePoolName, {
 }
 '''
   iconUrl = 'icon-catalog-item.svg'
+  templateObjectType = 'none'
   useFormalParameter = '1'
 
   formalParameter 'projectName', {
