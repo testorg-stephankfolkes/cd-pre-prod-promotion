@@ -1,6 +1,6 @@
 acl{
   inheriting = '0'
-  aclEntry 'user', principalName: 'project: cd-pre-prod-promotion', {
+  aclEntry 'user', principalName: 'project: feature-test2', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
