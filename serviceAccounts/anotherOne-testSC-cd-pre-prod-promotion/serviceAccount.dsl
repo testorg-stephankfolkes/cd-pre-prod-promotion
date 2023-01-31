@@ -1,4 +1,4 @@
 
-serviceAccount 'anotherOne-testSC-cd-pre-prod-promotion', {
+serviceAccount 'anotherOne-testSC-show-holy', {
   description = ''
 }
