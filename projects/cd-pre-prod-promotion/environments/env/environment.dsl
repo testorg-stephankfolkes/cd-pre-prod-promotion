@@ -8,6 +8,9 @@ environment 'env', {
 
   environmentTier 'Tier 1', {
     description = ''
+    resourcePoolName = [
+      'autotests_DEV_cd-pre-prod-promotion',
+    ]
   }
 
   tag 'PROD', {
@@ -16,5 +19,6 @@ environment 'env', {
 
   utilityResource 'Utility Resource 1', {
     description = ''
+    resourceName = 'new-agent'
   }
 }

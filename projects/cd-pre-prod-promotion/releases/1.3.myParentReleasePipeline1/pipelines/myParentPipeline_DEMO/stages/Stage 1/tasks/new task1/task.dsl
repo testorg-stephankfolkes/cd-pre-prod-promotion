@@ -1,6 +1,11 @@
+import java.io.File
 
-task 'njm,', {
+
+task 'new task1', {
   description = ''
+  actualParameter = [
+    'commandToRun': new File(projectDir, "./releases/1.3.myParentReleasePipeline1/pipelines/myParentPipeline_DEMO/stages/Stage 1/tasks/new task1.cmd").text,
+  ]
   advancedMode = '0'
   allowOutOfOrderRun = '0'
   alwaysRun = '0'
