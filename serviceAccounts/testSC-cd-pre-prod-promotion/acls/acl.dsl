@@ -6,7 +6,7 @@ acl{
     modifyPrivilege = 'allow'
     readPrivilege = 'allow'
   }
-  aclEntry 'user', principalName: 'project: cd-pre-prod-promotion', {
+  aclEntry 'user', principalName: 'project: branch-1', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
