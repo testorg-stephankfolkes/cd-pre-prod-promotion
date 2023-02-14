@@ -1,0 +1,4 @@
+
+catalog 'Resource', {
+  description = ''
+}
