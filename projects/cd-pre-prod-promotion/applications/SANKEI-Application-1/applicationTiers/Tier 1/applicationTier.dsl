@@ -1,4 +1,2 @@
 
-applicationTier 'Tier 1', {
-  description = ''
-}
+applicationTier 'Tier 1'

@@ -1,6 +1,5 @@
 
 pluginConfiguration 'GitHub-cd-pre-prod-promotion', {
-  description = ''
   credentialReferenceParameter = [
     'bearer_credential': '/projects/CBCD_Platform_Core/credentials/GIT_PAT_Stephan',
   ]

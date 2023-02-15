@@ -1,4 +1,2 @@
 
-gate 'POST', {
-  description = ''
-}
+gate 'POST'
