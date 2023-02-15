@@ -1,6 +1,6 @@
 
 step 'import', {
-  description = ''
+  description = 'desc'
   alwaysRun = '0'
   broadcast = '0'
   condition = ''
