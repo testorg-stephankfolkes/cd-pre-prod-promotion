@@ -1,6 +1,5 @@
 
 pluginConfiguration 'SANKEI-Plugin-1', {
-  description = ''
   credentialReferenceParameter = [
     'bearer_credential': '/projects/cd-pre-prod-promotion/credentials/SANKEI-Credentials-1',
   ]

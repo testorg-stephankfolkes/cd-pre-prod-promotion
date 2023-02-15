@@ -1,15 +1,7 @@
 
 procedure 'promote_experiment', {
-  description = ''
-  jobNameTemplate = ''
-  resourceName = ''
-  timeLimit = ''
-  timeLimitUnits = 'minutes'
-  workspaceName = ''
 
   formalParameter 'srcProject', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Source Project'
     optionsDsl = '''import com.electriccloud.domain.FormalParameterOptionsResult
 
@@ -32,9 +24,7 @@ return options'''
   }
 
   formalParameter 'destProject', {
-    description = ''
     dependsOn = 'srcProject'
-    expansionDeferred = '0'
     label = 'Destination Project'
     optionsDsl = '''
 import com.electriccloud.domain.FormalParameterOptionsResult
@@ -74,7 +64,6 @@ return options'''
 
   formalParameter 'resource_or_pool_name', {
     description = 'Resource chosen is expected to have Git CLI installed.'
-    expansionDeferred = '0'
     label = 'Resource or Pool Name'
     orderIndex = '3'
     required = '1'
