@@ -1,1 +1,0 @@
-echo SANKEI-ApplicationProcessStep-1
