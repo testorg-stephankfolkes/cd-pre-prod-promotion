@@ -2,5 +2,9 @@
 environment 'SANKEI-Env-1', {
   reservationRequired = '0'
 
-  environmentTier 'Tier 1'
+  environmentTier 'Tier 1', {
+    resourceName = [
+      'SANKEI-Resource-1',
+    ]
+  }
 }

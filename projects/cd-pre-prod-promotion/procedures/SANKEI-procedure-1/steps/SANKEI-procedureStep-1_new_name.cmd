@@ -1,1 +1,1 @@
-echo SANKEI-procedureStep_made_changes
+echo "SANKEI-procedureStep_made_changes 1" 
