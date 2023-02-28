@@ -6,7 +6,7 @@ environment 'env', {
 
   environmentTier 'Tier 1', {
     resourcePoolName = [
-      'autotests_DEV_cd-pre-prod-promotion',
+      'autotests_DEV',
     ]
   }
 

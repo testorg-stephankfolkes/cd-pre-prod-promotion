@@ -4,7 +4,7 @@ environment 'SANKEI-Env-2', {
 
   environmentTier 'Tier 1', {
     resourcePoolName = [
-      'SANKEI-ResourcePool_cd-pre-prod-promotion',
+      'SANKEI-ResourcePool',
     ]
   }
 }
