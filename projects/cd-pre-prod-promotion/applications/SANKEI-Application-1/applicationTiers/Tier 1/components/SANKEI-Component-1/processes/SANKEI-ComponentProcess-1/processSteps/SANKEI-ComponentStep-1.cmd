@@ -1,0 +1,1 @@
+echo SANKEI-ComponentProcessStep-1
