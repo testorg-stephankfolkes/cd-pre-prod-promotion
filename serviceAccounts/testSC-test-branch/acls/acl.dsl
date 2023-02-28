@@ -6,10 +6,10 @@ acl{
     modifyPrivilege = 'allow'
     readPrivilege = 'allow'
   }
-  aclEntry 'user', principalName: 'project: bugtest2-branch', {
-    changePermissionsPrivilege = 'inherit'
+  aclEntry 'user', principalName: 'project: cd-pre-prod-promotion', {
+    changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
-    modifyPrivilege = 'inherit'
+    modifyPrivilege = 'allow'
     readPrivilege = 'allow'
   }
   aclEntry 'user', principalName: 'project: CBCD_Platform_Core', {
