@@ -12,7 +12,7 @@ process 'Test_App_Process_1', {
 
   processStep 'Test_App_Process_Step_1', {
     actualParameter = [
-      'commandToRun': new File(projectDir, "./applications/Test_App_1/processes/Test_App_Process_1/processSteps/Test_App_Process_Step_1.cmd").text,
+      'commandToRun': new File(projectDir, "./applications/Test_App_1/processes/Test_App_Process_1/processSteps").text,
     ]
     applicationTierName = 'Tier 1'
     dependencyJoinType = 'and'
