@@ -1,10 +1,9 @@
 import java.io.File
 
 
-task 're', {
-  description = '123 desc'
+task 'Test_Task_1', {
   actualParameter = [
-    'commandToRun': new File(projectDir, "./pipelines/testpipeline/stages/Stage 1/tasks/re.cmd").text,
+    'commandToRun': new File(projectDir, "./pipelines/Test_Pipeline_1/stages/Stage 1/tasks/Test_Task_1.cmd").text,
   ]
   applicationVersion = 'dev'
   subpluginKey = 'EC-Core'

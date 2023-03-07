@@ -6,6 +6,7 @@ task 'task3', {
     'gitRepoUrl': 'sadf',
     'resource_OR_pool_name': 'gateway-external-agent',
   ]
+  applicationVersion = 'dev'
   subprocedure = 'example-promotion-pipeline2-procedure'
   taskType = 'PROCEDURE'
 }
