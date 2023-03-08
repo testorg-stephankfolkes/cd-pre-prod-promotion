@@ -1,5 +1,6 @@
 
 procedure 'test1 Copy', {
+  resourceName = 'new-agent'
   timeLimit = '0'
 
   formalParameter 'project', {
