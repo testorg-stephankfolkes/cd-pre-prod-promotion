@@ -7,8 +7,4 @@ step 'groovy', {
   resourceName = 'new-agent-flow-agents'
   shell = 'ec-groovy'
   timeLimit = '0'
-
-  attachCredential {
-    credentialName = '/projects/cd-pre-prod-promotion/credentials/Ammar-Test'
-  }
 }
