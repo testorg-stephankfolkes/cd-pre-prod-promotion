@@ -1,2 +1,2 @@
 
-serviceAccount 'anotherOne-testSC-branch-nimbus-test-runtime-reference'
+serviceAccount 'anotherOne-testSC-cd-pre-prod-promotion'
