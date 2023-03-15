@@ -1,2 +1,2 @@
 
-serviceAccount 'testSC-branch-test-nimbus'
+serviceAccount 'testSC-cd-pre-prod-promotion'
