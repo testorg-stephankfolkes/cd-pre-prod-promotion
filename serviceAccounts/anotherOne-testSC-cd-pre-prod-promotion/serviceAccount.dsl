@@ -1,4 +1,2 @@
 
-serviceAccount 'anotherOne-testSC-cd-pre-prod-promotion', {
-  description = ''
-}
+serviceAccount 'anotherOne-testSC-branch-nimbus-test-runtime-reference'
