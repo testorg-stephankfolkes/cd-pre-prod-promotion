@@ -1,1 +1,1 @@
-echo "test branch nimbus trigger1uuuuuuupppppdateeee" 
+echo "test branch nimbus trigger1uuuuuuupppppdateeee hello" 
