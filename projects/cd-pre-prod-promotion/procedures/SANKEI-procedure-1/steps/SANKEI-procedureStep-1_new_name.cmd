@@ -1,1 +1,1 @@
-echo "test branch nimbus trigger1uuuuuuupppppdateeee" 
+echo "cd-pre-prod-promotion" 
