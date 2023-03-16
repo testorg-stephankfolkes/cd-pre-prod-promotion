@@ -1,2 +1,4 @@
 
-serviceAccount 'anotherOne-testSC-cd-pre-prod-promotion'
+serviceAccount 'anotherOne-testSC-branch-nimbus-0323-1', {
+  description = ''
+}
