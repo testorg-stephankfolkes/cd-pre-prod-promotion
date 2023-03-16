@@ -2,7 +2,7 @@
 catalogItem 'Register Resource', {
   description = '''<xml>
   <title>
-    
+
   </title>
 
   <htmlData>
@@ -46,7 +46,7 @@ resource myResourceName, {
       modifyPrivilege = \'inherit\'
       readPrivilege = \'allow\'
     }
-    
+
     aclEntry \'group\', principalName: groupNamePrefix + \'baseuser\', {
       changePermissionsPrivilege = \'inherit\'
       executePrivilege = \'allow\'
@@ -59,12 +59,12 @@ resource myResourceName, {
 
 resourcePool myResourcePoolName, {
   autoDelete = \'1\'
-  
+
   getResourcesInPool(resourcePoolName: myResourcePoolName).each { res ->
 	resourceList.push(res.resourceName)
   }
   resourceName = resourceList
-  
+
   acl {
     inheriting = \'1\'
 
@@ -81,7 +81,7 @@ resourcePool myResourcePoolName, {
       modifyPrivilege = \'inherit\'
       readPrivilege = \'allow\'
     }
-    
+
     aclEntry \'group\', principalName: groupNamePrefix + \'baseuser\', {
       changePermissionsPrivilege = \'inherit\'
       executePrivilege = \'allow\'
@@ -122,7 +122,7 @@ resourcePool myResourcePoolName, {
     required = '1'
     type = 'entry'
     validationDsl = '''// Name of resource should follow the standard <HostName>_<ENV>_<Incremental Numerical Digit> (Eg. Kinetic_Dev_01)
-def envList = [\'Dev\', "SIT", "UAT", "PROD"] 
+def envList = [\'Dev\', "SIT", "UAT", "PROD"]
 
 def resourceNameSegments = args.parameters[\'resourceName\']?.split("_")
 

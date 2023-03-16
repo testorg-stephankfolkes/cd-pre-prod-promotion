@@ -1,4 +1,2 @@
 
-serviceAccount 'testSC-cd-pre-prod-promotion', {
-  description = ''
-}
+serviceAccount 'testSC-cd-pre-prod-promotion'

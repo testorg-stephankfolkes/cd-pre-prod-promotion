@@ -11,7 +11,7 @@ def options = new FormalParameterOptionsResult()
 def conf = getProjects()
 conf.each{
   if (it.projectName.endsWith("experimental")) {
-    
+
      options.add( /*value*/  it.projectName, /*displayString*/ it.projectName)
   }
 }
@@ -42,9 +42,9 @@ if (selectedValue) {
   def expected_project = selectedValue.minus("_experimental")
   def conf = getProjects()
   conf.each{
-    
+
     if (it.projectName == expected_project) {
-    
+
       options.add( /*value*/ \'/projects/\' + it.projectName, /*displayString*/ it.projectName)
       targetExist = true
     }
@@ -52,8 +52,8 @@ if (selectedValue) {
   if (targetExist == false) {
   	options.add( /*value*/ \'create_target_\' + expected_project , /*displayString*/ \'Project doesnt exist, it will be created !\')
   }
-                       
- 
+
+
 }
 
 return options'''
