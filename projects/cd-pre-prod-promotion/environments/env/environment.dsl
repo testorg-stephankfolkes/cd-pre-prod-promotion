@@ -4,11 +4,7 @@ environment 'env', {
   rollingDeployEnabled = '0'
   rollingDeployType = 'phase'
 
-  environmentTier 'Tier 1', {
-    resourcePoolName = [
-      'autotests_DEV',
-    ]
-  }
+  environmentTier 'Tier 1'
 
   tag 'PROD'
 
