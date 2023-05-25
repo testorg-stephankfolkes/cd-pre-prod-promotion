@@ -1,5 +1,2 @@
 
-application 'app', {
-  description = ''
-  applicationType = 'traditional'
-}
+application 'app'
