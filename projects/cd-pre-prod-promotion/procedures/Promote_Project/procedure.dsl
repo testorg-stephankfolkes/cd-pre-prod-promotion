@@ -1,15 +1,8 @@
 
 procedure 'Promote_Project', {
-  description = ''
-  jobNameTemplate = ''
   resourceName = '$[resource_name]'
-  timeLimit = ''
-  timeLimitUnits = 'minutes'
-  workspaceName = ''
 
   formalParameter 'projName', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Project Name'
     optionsDsl = '''import com.electriccloud.domain.FormalParameterOptionsResult
 
@@ -31,30 +24,23 @@ return options
   }
 
   formalParameter 'change_record', defaultValue: 'false', {
-    description = ''
     checkedValue = 'true'
     dependsOn = 'projName'
-    expansionDeferred = '0'
     label = 'Change Record?'
     orderIndex = '2'
-    required = '0'
     type = 'checkbox'
     uncheckedValue = 'false'
   }
 
   formalParameter 'change_record_id', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Change Record ID'
     orderIndex = '3'
     renderCondition = '${change_record} == true'
-    required = '0'
     type = 'entry'
   }
 
   formalParameter 'resource_name', {
     description = 'Resource/Pool chosen is expected to have Git CLI installed.'
-    expansionDeferred = '0'
     label = 'Resource or Resource Pool Name'
     optionsDsl = '''import com.electriccloud.domain.FormalParameterOptionsResult
 
@@ -80,18 +66,15 @@ return options
   formalParameter 'git-creds-pat', {
     description = 'Select Git credentials to clone and push changes. The credential must be a personal access token (PAT).'
     dependsOn = 'projName'
-    expansionDeferred = '0'
     label = 'Git Credentials - PAT'
     orderIndex = '5'
     renderCondition = '${projName} != \'\''
-    required = '0'
     type = 'credential'
   }
 
   formalParameter 'ec-github_configuration', {
     description = 'Select the EC-GitHub configuration that will have permission to create a pull request'
     dependsOn = 'projName,git-creds-pat'
-    expansionDeferred = '0'
     label = 'EC-GitHub Configuration'
     optionsDsl = '''import com.electriccloud.domain.FormalParameterOptionsResult
 
@@ -111,7 +94,6 @@ return options
 '''
     orderIndex = '6'
     renderCondition = '${projName} != \'\''
-    required = '0'
     type = 'select'
   }
 }
