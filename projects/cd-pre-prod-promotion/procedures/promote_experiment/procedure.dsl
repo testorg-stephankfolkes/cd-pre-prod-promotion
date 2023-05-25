@@ -1,15 +1,7 @@
 
 procedure 'promote_experiment', {
-  description = ''
-  jobNameTemplate = ''
-  resourceName = ''
-  timeLimit = ''
-  timeLimitUnits = 'minutes'
-  workspaceName = ''
 
   formalParameter 'srcProject', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Source Project'
     optionsDsl = '''import com.electriccloud.domain.FormalParameterOptionsResult
 
@@ -19,7 +11,7 @@ def options = new FormalParameterOptionsResult()
 def conf = getProjects()
 conf.each{
   if (it.projectName.endsWith("experimental")) {
-    
+
      options.add( /*value*/  it.projectName, /*displayString*/ it.projectName)
   }
 }
@@ -32,9 +24,7 @@ return options'''
   }
 
   formalParameter 'destProject', {
-    description = ''
     dependsOn = 'srcProject'
-    expansionDeferred = '0'
     label = 'Destination Project'
     optionsDsl = '''
 import com.electriccloud.domain.FormalParameterOptionsResult
@@ -52,9 +42,9 @@ if (selectedValue) {
   def expected_project = selectedValue.minus("_experimental")
   def conf = getProjects()
   conf.each{
-    
+
     if (it.projectName == expected_project) {
-    
+
       options.add( /*value*/ \'/projects/\' + it.projectName, /*displayString*/ it.projectName)
       targetExist = true
     }
@@ -62,8 +52,8 @@ if (selectedValue) {
   if (targetExist == false) {
   	options.add( /*value*/ \'create_target_\' + expected_project , /*displayString*/ \'Project doesnt exist, it will be created !\')
   }
-                       
- 
+
+
 }
 
 return options'''
@@ -74,7 +64,6 @@ return options'''
 
   formalParameter 'resource_or_pool_name', {
     description = 'Resource chosen is expected to have Git CLI installed.'
-    expansionDeferred = '0'
     label = 'Resource or Pool Name'
     orderIndex = '3'
     required = '1'
