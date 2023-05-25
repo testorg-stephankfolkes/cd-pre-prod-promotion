@@ -2,7 +2,7 @@
 catalogItem 'Register Resource', {
   description = '''<xml>
   <title>
-    
+
   </title>
 
   <htmlData>
@@ -11,7 +11,6 @@ catalogItem 'Register Resource', {
     ]]>
   </htmlData>
 </xml>'''
-  allowScheduling = '0'
   buttonLabel = 'Execute'
   dslString = '''def myResourceName = args.resourceName
 def myHostName = args.hostName
@@ -47,7 +46,7 @@ resource myResourceName, {
       modifyPrivilege = \'inherit\'
       readPrivilege = \'allow\'
     }
-    
+
     aclEntry \'group\', principalName: groupNamePrefix + \'baseuser\', {
       changePermissionsPrivilege = \'inherit\'
       executePrivilege = \'allow\'
@@ -60,12 +59,12 @@ resource myResourceName, {
 
 resourcePool myResourcePoolName, {
   autoDelete = \'1\'
-  
+
   getResourcesInPool(resourcePoolName: myResourcePoolName).each { res ->
 	resourceList.push(res.resourceName)
   }
   resourceName = resourceList
-  
+
   acl {
     inheriting = \'1\'
 
@@ -82,7 +81,7 @@ resourcePool myResourcePoolName, {
       modifyPrivilege = \'inherit\'
       readPrivilege = \'allow\'
     }
-    
+
     aclEntry \'group\', principalName: groupNamePrefix + \'baseuser\', {
       changePermissionsPrivilege = \'inherit\'
       executePrivilege = \'allow\'
@@ -93,12 +92,9 @@ resourcePool myResourcePoolName, {
 }
 '''
   iconUrl = 'icon-catalog-item.svg'
-  templateObjectType = 'none'
   useFormalParameter = '1'
 
   formalParameter 'projectName', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Project Name'
     orderIndex = '1'
     required = '1'
@@ -106,8 +102,6 @@ resourcePool myResourcePoolName, {
   }
 
   formalParameter 'environment', {
-    description = ''
-    expansionDeferred = '0'
     label = 'Environment'
     options = [
       'Dev': 'Dev',
@@ -123,13 +117,12 @@ resourcePool myResourcePoolName, {
   formalParameter 'resourceName', defaultValue: '', {
     description = 'Name of resource should follow the standard &lt;HostName&gt;_&lt;ENV&gt;_&lt;Incremental Numerical Digit&gt; (Eg. Kinetic_Dev_01)'
     dependsOn = 'environment'
-    expansionDeferred = '0'
     label = 'Resource Name'
     orderIndex = '3'
     required = '1'
     type = 'entry'
     validationDsl = '''// Name of resource should follow the standard <HostName>_<ENV>_<Incremental Numerical Digit> (Eg. Kinetic_Dev_01)
-def envList = [\'Dev\', "SIT", "UAT", "PROD"] 
+def envList = [\'Dev\', "SIT", "UAT", "PROD"]
 
 def resourceNameSegments = args.parameters[\'resourceName\']?.split("_")
 
@@ -147,7 +140,6 @@ if (resourceNameSegments!= null && resourceNameSegments?.length == 3 && envList.
 
   formalParameter 'hostName', {
     description = 'Fully qualified host name'
-    expansionDeferred = '0'
     label = 'Host Name'
     orderIndex = '4'
     required = '1'
@@ -158,7 +150,6 @@ if (resourceNameSegments!= null && resourceNameSegments?.length == 3 && envList.
     description = '''Name of resource pool should follow the standard &lt;EIMID&gt;_&lt;HostName&gt;_&lt;Environment&gt;_&lt;Hosting&gt;_&lt;Agent
 Type&gt;_&lt;Purpose&gt; (Eg. 11072737_ARO_Dev_GCP_VM_Cyberflow)'''
     dependsOn = 'environment'
-    expansionDeferred = '0'
     label = 'Resource Pool Name'
     orderIndex = '5'
     required = '1'
@@ -182,10 +173,8 @@ if (resourcePoolNameSegments!= null && resourcePoolNameSegments?.length == 6 && 
 
   formalParameter 'tags', {
     description = 'Comma separated '
-    expansionDeferred = '0'
     label = 'Tags'
     orderIndex = '6'
-    required = '0'
     type = 'entry'
   }
 }

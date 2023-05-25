@@ -1,15 +1,8 @@
 
 procedure 'test1 Copy', {
-  description = ''
-  jobNameTemplate = ''
-  resourceName = ''
   timeLimit = '0'
-  timeLimitUnits = 'minutes'
-  workspaceName = ''
 
   formalParameter 'project', {
-    description = ''
-    expansionDeferred = '0'
     optionsDsl = '''def user
 try {
   user = getProperty(propertyName: \'/myUser/userName\').value
