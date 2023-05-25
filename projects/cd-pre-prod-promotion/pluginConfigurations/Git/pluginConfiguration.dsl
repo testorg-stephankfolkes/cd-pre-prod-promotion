@@ -1,6 +1,5 @@
 
 pluginConfiguration 'Git', {
-  description = ''
   field = [
     'authType': 'token',
     'debugLevel': '0',
