@@ -1,6 +1,5 @@
 
 pluginConfiguration 'Git_Conf', {
-  description = ''
   field = [
     'authType': 'password',
     'checkConnectionResource': 'https://github.com/cloudbees/cd-promop-dev',
