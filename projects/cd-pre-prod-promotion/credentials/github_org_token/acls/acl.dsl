@@ -1,6 +1,6 @@
 acl{
   inheriting = '0'
-  aclEntry 'user', principalName: 'project: Shared-Service-Catalogues', {
+  aclEntry 'user', principalName: 'project: CBCDFLOW-5992', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
