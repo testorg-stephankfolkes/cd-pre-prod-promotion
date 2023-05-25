@@ -1,4 +1,0 @@
-
-gate 'PRE', {
-  description = ''
-}
