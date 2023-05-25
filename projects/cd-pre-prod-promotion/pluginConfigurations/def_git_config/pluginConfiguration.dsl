@@ -1,6 +1,5 @@
 
 pluginConfiguration 'def_git_config', {
-  description = ''
   field = [
     'authType': 'key',
     'checkConnectionResource': 'gen-agents-flow-agent-0',
