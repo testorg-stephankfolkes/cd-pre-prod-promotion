@@ -1,15 +1,15 @@
 acl{
   inheriting = '0'
-  aclEntry 'user', principalName: 'project: Shared-Service-Catalogues', {
+  aclEntry 'user', principalName: 'project: Santosh Testing', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
     readPrivilege = 'allow'
   }
   aclEntry 'user', principalName: 'project: cd-pre-prod-promotion', {
-    changePermissionsPrivilege = 'allow'
+    changePermissionsPrivilege = 'inherit'
     executePrivilege = 'allow'
-    modifyPrivilege = 'allow'
+    modifyPrivilege = 'inherit'
     readPrivilege = 'allow'
   }
   aclEntry 'user', principalName: 'project: CBCD_Platform_Core', {
