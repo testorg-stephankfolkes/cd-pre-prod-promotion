@@ -1,6 +1,5 @@
 
 pluginConfiguration 'Git_w_CLI', {
-  description = ''
   credentialReferenceParameter = [
     'token_credential': '/projects/cd-pre-prod-promotion/credentials/GIT_PAT',
   ]

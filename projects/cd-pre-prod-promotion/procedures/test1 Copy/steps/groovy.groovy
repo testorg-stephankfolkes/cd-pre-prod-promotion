@@ -12,7 +12,7 @@ println output.minus("]").minus("[").trim()
 /*def result = ef.getPluginConfiguration(
                 projectName: 'cd-pre-prod-promotion',
                 pluginConfigurationName: 'Git_w_CLI')
-                
+
 println result
 
 JsonSlurper slurper = new JsonSlurper()
