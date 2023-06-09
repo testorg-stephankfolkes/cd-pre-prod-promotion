@@ -1,6 +1,6 @@
 acl{
   inheriting = '0'
-  aclEntry 'user', principalName: 'project: Santosh Testing', {
+  aclEntry 'user', principalName: 'project: Shared-Service-Catalogues', {
     changePermissionsPrivilege = 'allow'
     executePrivilege = 'allow'
     modifyPrivilege = 'allow'
